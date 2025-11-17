@@ -1,4 +1,4 @@
-booleanconst isEditMode"use client"
+"use client"
 
 import React, { createContext, useContext, useState, useEffect } from 'react'
 import { cleanupInvalidImages } from '@/lib/cleanup-storage'
