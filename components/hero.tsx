@@ -36,10 +36,10 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "정재훈",
-    title: "단국대 교수입니다",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
+    greeting: "34기",
+    name: "이왕희입니다",
+    title: "진성나노텍 대표",
+    description: "전기, 전자 관련분야의 기술 도입을 통한 공장 자동화 산업 발전을 추구합니다. \n",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
     backgroundVideo: "",
