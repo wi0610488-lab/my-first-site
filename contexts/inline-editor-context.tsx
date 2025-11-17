@@ -1,4 +1,4 @@
-"use client"
+booleanconst isEditMode"use client"
 
 import React, { createContext, useContext, useState, useEffect } from 'react'
 import { cleanupInvalidImages } from '@/lib/cleanup-storage'
@@ -21,7 +21,8 @@ const EditorContext = createContext<EditorContextType | undefined>(undefined)
 export function InlineEditorProvider({ children }: { children: React.ReactNode }) {
   const [isEditMode, setIsEditMode] = useState(false)
   const [hoveredElement, setHoveredElement] = useState<string | null>(null)
-  const isDevelopment = process.env.NODE_ENV === 'development'
+  const isDevelopment = true
+
 
   // localStorage에서 데이터 불러오기
   const getData = (key: string) => {
